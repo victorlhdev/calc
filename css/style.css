@@ -1,0 +1,14 @@
+h1{
+    color: brown;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
