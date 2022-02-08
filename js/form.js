@@ -28,6 +28,8 @@ function montaTr(usuario) {
     usuarioTr.appendChild(montaTd(usuario.salarioBruto, "info-salarioBruto"));
     usuarioTr.appendChild(montaTd(usuario.desconto, "info-desconto"));
     usuarioTr.appendChild(montaTd(usuario.salarioLiquido, "info-salarioLiquido"));
+    usuarioTr.appendChild(montaTd("", "bi-x-square-fill"));
+    
 
     return usuarioTr;
 }

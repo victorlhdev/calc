@@ -1,14 +1,20 @@
-h1{
-    color: brown;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th, td {
-    padding: 5px;
-    border-bottom: 1px solid #ddd;
+td, th {
+    padding: .7em;
+    margin: 0;
     text-align: center;
-}
+  }
+
+  th{
+    /*background-color: #EEE;*/
+  }
+  td{
+    font-weight:bold;
+    /*background-color: #EEE;*/
+  }
+  
+  table{
+    width: 100%;
+    margin-bottom : .5em;
+    table-layout: fixed;
+    text-align: center;
+  }
