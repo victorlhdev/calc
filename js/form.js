@@ -30,7 +30,6 @@ function montaTr(usuario) {
     usuarioTr.appendChild(montaTd(usuario.salarioLiquido, "info-salarioLiquido"));
     usuarioTr.appendChild(montaTd("", "bi-x-square-fill"));
     
-
     return usuarioTr;
 }
 
